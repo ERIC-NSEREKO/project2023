@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <main>
+
+    <div class="intro">
+        <div>
+            <img src="https://images.pexels.com/photos/18117652/pexels-photo-18117652/free-photo-of-hotel-house-vintage-table.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+            <h1>New coding class</h1>
+            <p>
+                ooppkjhhhggggggffffhhjjjjjjjjjjjjjjjjjjhgyttrreerrtttyyyyuuuuu
+                tyyyuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuggggggggggggggggggggggggggg
+                yhjjjjjjjjjjjjjjjjjjjjjjjjjjjjgggffffff
+                ioghhfkhffhjfghfjffhgjkmjfbfhfhfhhjjssjfbfbfjsjsffhfhfhssnsnsnshfhfsfhdhdhgdheyuygffksksjshggehrhrhjsjjsjhhfhgfhhrhrjkjj
+                hdgfhfhgeggjbfbffbbvbwkjfjfjjeyrrhffhhjhrhrhgggrgrhehjfhfhfnbbshdhdhdhhjfjjfhfhfhhfgrgryryfhfgfhfhfkhshjfhgjsjksjjsj
+                gsgsgshshshdhdhjdjdjdjdhdgshjsjshgsjdhshdjdhgdkjdhdjdhdjdhd
+
+            </p>
+        </div>
+    </div>
+            <form onsubmit="return onsubmitHandler(event)">
+                <div class="input_field">
+                    <label for="fullname">Fullname</label>
+                    <input type="text"
+                    name="fullname"
+                    placeholder="entre you fullname"
+                    onchange="return fullNameChangeHandler(event)"
+                    />
+
+                </div>
+                <div class="input_field">
+                    <label for="fullname">Email</label>
+                    <input type="phonenumber"
+                    name="age"
+                    placeholder="entre you phonenumber"
+                    onchange="return emailChangeHandler(event)"
+                    />
+
+                </div>
+                <div class="input_field">
+                    <label for="fullname">phonenumber</label>
+                    <input type="number"
+                    name="age"
+                    placeholder="entre you phonenumber"
+                    onchange="return phonenumberChangeHandler(event)"
+                    />
+
+                </div>
+                <div class="input_field">
+                    <label for="fullname">Date of Birth</label>
+                    <input type="date"
+                    name="age"
+                    placeholder="entre you email adress"
+                    onchange="return  dobChangeHandler(event)"
+
+                    />
+
+                </div>
+                <div class="input_field">
+                    <label for="gender">Gender</label>
+                    <select onchange="return  genderChangeHandler(event)"
+                    >
+                        <option value="male">M</option>
+                        <option value="female">F</option>
+                        <option value="otheres">otheres</option>
+                        
+
+                    </select>
+
+                </div>
+                <br>
+                <button type="submit">Submit</button>
+                <br>
+                <br>
+                <br>
+
+            </form>
+        </main>
+        <script src="./index.js"></script>
+</body>
+</html>
